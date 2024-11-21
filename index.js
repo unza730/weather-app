@@ -107,6 +107,7 @@ function showWeatherData(data) {
     currentTempEl.innerHTML = `
         <img src="http://openweathermap.org/img/wn/${current.weather[0].icon}@2x.png" alt="weather icon" class="w-icon">
         <div class="other">
+          <div class="day">Today</div>
             <div class="temp">Temp: ${temp}°C</div>
         </div>
     `;
@@ -129,7 +130,7 @@ function showWeatherData(data) {
     // Weather forecast for the next 5 days (at 12:00 PM for each day)
     weatherForeCastEl.innerHTML = data.list
         .filter((entry, idx) => idx % 8 === 0) // Getting data at 12:00 PM (4 entries per day, 3-hour intervals)
-        .slice(0, 5) // Get the first 5 days only
+        .slice(0, 7) // Get the first 5 days only
         .map((day) => {
             const dayName = days[new Date(day.dt * 1000).getDay()];
             return `
