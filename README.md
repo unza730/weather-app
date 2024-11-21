@@ -1,6 +1,3 @@
-Here's a refined version of your README file with improved formatting and structure for clarity:
-
----
 
 # Weather App
 
@@ -20,8 +17,6 @@ This is a simple weather application that fetches the current weather and a 5-da
 ### Screenshot
 Here’s a screenshot of the Weather App 
 
-## Setup Instructions
-![Uploading image.png…]()
 
 1. **Clone the repository** to your local machine:
    ```bash
