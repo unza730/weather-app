@@ -123,6 +123,19 @@ body{
      font-weight: 100;
      font-size: 12px;
  }
+
+
+ @media only screen and (max-width:1035px){
+    .container{
+        padding: 20px;
+    }
+    .future-forecast{
+        justify-content: start;
+        align-items: none;
+        overflow-y: scroll;
+    }
+
+}
  @media only screen and (max-width:730px){
      .container{
          padding: 20px;
