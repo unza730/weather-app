@@ -98,7 +98,7 @@ function getCityCoordinates(city) {
 
 // Display current weather and 5-day forecast
 function showWeatherData(data) {
-    console.log("------- data: ", data);
+    console.log("data: ", data);
     const current = data.list[0]; // First entry for current weather
     const { temp, humidity, pressure, wind_speed } = current.main;
     timezone.innerHTML = data?.city?.name;
