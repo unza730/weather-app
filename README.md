@@ -16,7 +16,7 @@ This is a simple weather application that fetches the current weather and a 5-da
 - **Moment.js**: To manage time and date formatting.
 ### Screenshot
 Here’s a screenshot of the Weather App 
-
+https://github.com/unza730/weather-app/blob/main/image.png
 
 1. **Clone the repository** to your local machine:
    ```bash
