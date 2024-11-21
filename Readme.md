@@ -1,18 +1,3 @@
-To include a screenshot in your README file, you can follow these steps:
-
-1. **Take a Screenshot**: Capture an image of your Weather App running in the browser.
-
-2. **Add the Screenshot to Your Project**:
-   - Create a folder named `assets` or `images` in your project directory (this helps keep things organized).
-   - Place your screenshot inside this folder. For example, name the screenshot `weather-app-screenshot.png`.
-
-3. **Update the README with the Screenshot**:
-   - Use Markdown to add an image in your README file.
-
-Here’s how you can update the `README.md` file to include the screenshot:
-
----
-
 # Weather App
 
 This is a simple weather application that fetches the current weather and a 5-day forecast using the OpenWeather API. You can search for weather information by entering a city or country name.
